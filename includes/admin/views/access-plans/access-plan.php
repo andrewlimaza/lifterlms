@@ -719,7 +719,7 @@ if ( ! isset( $plan ) ) {
 								<option value="<?php echo esc_attr( $llms_checkout_redirect_page ); ?>" selected="selected"><?php echo esc_html( get_the_title( $llms_checkout_redirect_page ) ); ?> ( #<?php echo esc_html( $llms_checkout_redirect_page ); ?>)</option>
 							<?php endif; ?>
 						<?php endif; ?>
-					<select>
+					</select>
 				</div>
 
 				<div class="llms-metabox-field d-1of2" data-controller="llms-checkout-redirect-type" data-value-is="url">
