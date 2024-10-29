@@ -172,7 +172,7 @@ return array(
 			'update_db_version',
 		),
 	),
-	'7.5.0' => array(
+	'7.5.0'  => array(
 		'type'      => 'auto',
 		'namespace' => true,
 		'updates'   => array(
@@ -180,7 +180,7 @@ return array(
 			'update_db_version',
 		),
 	),
-	'7.7.0' => array(
+	'7.8.0'  => array(
 		'type'      => 'auto',
 		'namespace' => true,
 		'updates'   => array(
