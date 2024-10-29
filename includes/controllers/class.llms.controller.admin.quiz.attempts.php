@@ -5,7 +5,7 @@
  * @package LifterLMS/Controllers/Classes
  *
  * @since 3.16.0
- * @version [version]
+ * @version 7.8.0
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -34,7 +34,7 @@ class LLMS_Controller_Admin_Quiz_Attempts {
 	 * @since 3.35.0 Sanitize `$_POST` data.
 	 * @since 4.4.4 Made sure to exit after redirecting on attempt deletion.
 	 * @since 5.9.0 Stop using deprecated `FILTER_SANITIZE_STRING`.
-	 * @since [version] Added `llms_quiz_resumable_attempt_action` action and single resumable attempt delete.
+	 * @since 7.8.0 Added `llms_quiz_resumable_attempt_action` action and single resumable attempt delete.
 	 *
 	 * @return void
 	 */
@@ -103,7 +103,7 @@ class LLMS_Controller_Admin_Quiz_Attempts {
 	/**
 	 * Get resumable attempts for a quiz.
 	 *
-	 * @since [version]
+	 * @since 7.8.0
 	 *
 	 * @param int $quiz_id Quiz ID.
 	 */

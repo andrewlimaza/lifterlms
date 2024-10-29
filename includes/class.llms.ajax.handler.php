@@ -5,7 +5,7 @@
  * @package LifterLMS/Classes
  *
  * @since 1.0.0
- * @version [version]
+ * @version 7.8.0
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -597,7 +597,7 @@ class LLMS_AJAX_Handler {
 	 * @since 3.9.0
 	 * @since 3.16.4 Unknown.
 	 * @since 6.4.0 Make sure attempts limit was not reached.
-	 * @since [version] Use `$attempt->get( 'status' )` instead of the not existing `$attempt->get_status()` method and added `can_be_resumed` param.
+	 * @since 7.8.0 Use `$attempt->get( 'status' )` instead of the not existing `$attempt->get_status()` method and added `can_be_resumed` param.
 	 *
 	 * @param array $request $_POST data.
 	 *                       required:
@@ -679,7 +679,7 @@ class LLMS_AJAX_Handler {
 	/**
 	 * Resume a Quiz Attempt.
 	 *
-	 * @since [version]
+	 * @since 7.8.0
 	 *
 	 * @param array $request $_POST data.
 	 *                       required:
@@ -764,7 +764,7 @@ class LLMS_AJAX_Handler {
 	/**
 	 * AJAX Quiz get question.
 	 *
-	 * @since [version]
+	 * @since 7.8.0
 	 *
 	 * @param array $request $_POST data.
 	 * @return WP_Error|array

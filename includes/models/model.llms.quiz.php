@@ -54,7 +54,7 @@ class LLMS_Quiz extends LLMS_Post_Model {
 	 *
 	 * @since Unknown.
 	 * @since 7.6.2 Added the `disable_retake` property.
-	 * @since [version] Added `can_be_resumed` property.
+	 * @since 7.8.0 Added `can_be_resumed` property.
 	 * @var string[] Array key is the meta_key and array values is property's type.
 	 */
 	protected $properties = array(
@@ -207,7 +207,7 @@ class LLMS_Quiz extends LLMS_Post_Model {
 	 * A quiz can only be resumed if it's set to be resumed
 	 * and has no time limit.
 	 *
-	 * @since [version]
+	 * @since 7.8.0
 	 *
 	 * @return bool
 	 */
@@ -221,7 +221,7 @@ class LLMS_Quiz extends LLMS_Post_Model {
 	 *
 	 * A student can resume the quiz only if their latest attempt can be resumed.
 	 *
-	 * @since [version]
+	 * @since 7.8.0
 	 *
 	 * @param int $user_id Optional. WP User ID, none supplied uses current user. Default `null`.
 	 * @return bool
@@ -242,7 +242,7 @@ class LLMS_Quiz extends LLMS_Post_Model {
 	/**
 	 * Gets quiz's last attempt key of a user.
 	 *
-	 * @since [version]
+	 * @since 7.8.0
 	 *
 	 * @param int $user_id Optional. WP User ID, none supplied uses current user. Default `null`.
 	 * @return string|bool

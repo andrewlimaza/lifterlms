@@ -77,7 +77,7 @@ class LLMS_Controller_Registration {
 		 *
 		 * The extension should add a notice in addition to returning the truthy.
 		 *
-		 * @since [version]
+		 * @since 7.8.0
 		 *
 		 * @param boolean $valid Validation status. If `true` ceases registration execution. If `false` registration proceeds.
 		 */

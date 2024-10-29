@@ -8,8 +8,8 @@
  * @since 3.35.0 Access `$_GET` data via `llms_filter_input()`.
  * @since 4.17.0 Return early if accessed without a logged in user.
  * @since 5.9.0 Stop using deprecated `FILTER_SANITIZE_STRING`.
- * @since [version] Don't try to round nulls.
- * @version [version]
+ * @since 7.8.0 Don't try to round nulls.
+ * @version 7.8.0
  *
  * @property LLMS_Quiz_Attempt $attempt Attempt object.
  */

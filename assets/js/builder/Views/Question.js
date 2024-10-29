@@ -2,7 +2,7 @@
  * Single Question View.
  *
  * @since 3.16.0
- * @version [version]
+ * @version 7.8.0
  */
 define( [
 		'Views/_Detachable',
@@ -86,7 +86,7 @@ define( [
 		 * Compiles the template and renders the view.
 		 *
 		 * @since 3.16.0
-		 * @since [version] Added support for image upload in tinyMCE editor.
+		 * @since 7.8.0 Added support for image upload in tinyMCE editor.
 		 *
 		 * @return self (for chaining)
 		 */

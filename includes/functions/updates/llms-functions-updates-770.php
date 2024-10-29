@@ -4,8 +4,8 @@
  *
  * @package LifterLMS/Functions/Updates
  *
- * @since [version]
- * @version [version]
+ * @since 7.8.0
+ * @version 7.8.0
  */
 
 namespace LLMS\Updates\Version_7_7_0;
@@ -15,7 +15,7 @@ defined( 'ABSPATH' ) || exit;
 /**
  * Retrieves the DB version of the migration.
  *
- * @since [version]
+ * @since 7.8.0
  *
  * @access private
  *
@@ -28,7 +28,7 @@ function _get_db_version() {
 /**
  * Create a new option to enable Access Plan SKUs if any existing plans have a SKU set.
  *
- * @since [version]
+ * @since 7.8.0
  *
  * @return false
  */
@@ -54,7 +54,7 @@ function maybe_set_option_llms_access_plans_allow_skus() {
 /**
  * Update db version to [version].
  *
- * @since [version]
+ * @since 7.8.0
  *
  * @return false.
  */

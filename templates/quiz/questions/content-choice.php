@@ -5,8 +5,8 @@
  * @package LifterLMS/Templates
  *
  * @since 3.16.0
- * @since [version] Account for question answers.
- * @version [version]
+ * @since 7.8.0 Account for question answers.
+ * @version 7.8.0
  *
  * @param $attempt  LLMS_Quiz_Attempt LLMS_Quiz_Attempt instance.
  * @param $question LLMS_Question     LLMS_Question instance.

@@ -494,7 +494,7 @@ class LLMS_Access_Plan extends LLMS_Post_Model {
 		/**
 		 * Filter the price of a plan with a coupon applied before formatting the price for display.
 		 *
-		 * @since [version]
+		 * @since 7.8.0
 		 */
 		$price = apply_filters( "llms_get_{$this->model_post_type}_{$key}_price_with_coupon_before_formatting", $price, $key, $price_args, $this );
 

@@ -7,7 +7,7 @@
  * @since 3.16.0
  * @since 3.17.3 Unknown.
  * @since 5.3.0 Do not show the "Start a review" button, if there are no existing questions to review.
- * @since [version] Add information on whether the attempt can be resumed or not and disable resume attempt button.
+ * @since 7.8.0 Add information on whether the attempt can be resumed or not and disable resume attempt button.
  *
  * @param LLMS_Quiz_Attempt $attempt Quiz attempt object.
  */

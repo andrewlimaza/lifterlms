@@ -54,7 +54,7 @@ class LLMS_Post_Types {
 	/**
 	 * Add Launch Course Builder top admin bar button for Course posts.
 	 *
-	 * @since [version]
+	 * @since 7.8.0
 	 *
 	 * @return void
 	 */

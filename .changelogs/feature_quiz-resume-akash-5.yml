@@ -1,4 +1,0 @@
-significance: minor
-type: dev
-entry: Added filter `llms_quiz_attempt_resume_time_period` for updating quiz resume
-  allowed time period.

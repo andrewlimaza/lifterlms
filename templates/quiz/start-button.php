@@ -5,8 +5,8 @@
  * @since 1.0.0
  * @since 3.25.0 Unknown.
  * @since 4.17.0 Early bail on orphan quiz.
- * @since [version] Added support for quiz resume.
- * @version [version]
+ * @since 7.8.0 Added support for quiz resume.
+ * @version 7.8.0
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -99,7 +99,7 @@ if ( ! $lesson || ! is_a( $lesson, 'LLMS_Lesson' ) ) {
 						/**
 						 * Filters the quiz resume button text.
 						 *
-						 * @since [version]
+						 * @since 7.8.0
 						 *
 						 * @param string      $button_text The resume quiz button text.
 						 * @param LLMS_Quiz   $quiz        The current quiz instance.

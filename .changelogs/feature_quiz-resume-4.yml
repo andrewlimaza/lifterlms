@@ -1,4 +1,0 @@
-significance: patch
-type: fixed
-entry: Fixed reference in `LLMS_Ajax_Handler::quiz_start()` to
-  `LLMS_Quiz_Attempt::get_status()` method removed since LifterLMS 4.0.0.

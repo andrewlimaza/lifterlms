@@ -52,7 +52,7 @@ define( [
 		 * @since 3.16.0
 		 * @since 7.4.0 Added filter for filtering defaults.
 		 * @since 7.5.0 Replaced unused `random_answers` property with `random_questions`.
-		 * @since [version] Added filter for filtering defaults and `can_be_resumed` property.
+		 * @since 7.8.0 Added filter for filtering defaults and `can_be_resumed` property.
 		 *
 		 * @return {Object}
 		 */

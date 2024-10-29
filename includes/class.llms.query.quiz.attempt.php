@@ -5,7 +5,7 @@
  * @package LifterLMS/Classes
  *
  * @since 3.16.0
- * @version [version]
+ * @version 7.8.0
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -45,7 +45,7 @@ class LLMS_Query_Quiz_Attempt extends LLMS_Database_Query {
 	 *
 	 * @since 3.16.0
 	 * @since 4.2.0 Added `exclude` default arg.
-	 * @since [version] Added `can_be_resumed` default arg.
+	 * @since 7.8.0 Added `can_be_resumed` default arg.
 	 *
 	 * @return array
 	 */
@@ -160,7 +160,7 @@ class LLMS_Query_Quiz_Attempt extends LLMS_Database_Query {
 	 * @since 3.16.0
 	 * @since 3.35.0 Better SQL preparation.
 	 * @since 4.2.0 Added `exclude` arg logic.
-	 * @since [version] Added `can_be_resumed` arg logic.
+	 * @since 7.8.0 Added `can_be_resumed` arg logic.
 	 *
 	 * @return string
 	 */

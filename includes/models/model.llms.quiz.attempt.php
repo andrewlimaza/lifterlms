@@ -35,7 +35,7 @@ class LLMS_Quiz_Attempt extends LLMS_Abstract_Database_Store {
 	 * Array of table column name => format
 	 *
 	 * @since unknown
-	 * @since [version] Added `can_be_resumed` column.
+	 * @since 7.8.0 Added `can_be_resumed` column.
 	 * @var array
 	 */
 	protected $columns = array(
@@ -483,7 +483,7 @@ class LLMS_Quiz_Attempt extends LLMS_Abstract_Database_Store {
 	 * @since 3.9.0
 	 * @since 3.16.0 Unknown.
 	 * @since 4.2.0 Use strict type comparison.
-	 * @since [version] Added `$return` param, by default `"id"`.
+	 * @since 7.8.0 Added `$return` param, by default `"id"`.
 	 *
 	 * @param int    $last_question Optional. WP Post ID of the current LLMS_Question the "next" refers to. Default `null`.
 	 * @param string $return        Optional. Return type 'id|array'. Default 'id'.
@@ -511,7 +511,7 @@ class LLMS_Quiz_Attempt extends LLMS_Abstract_Database_Store {
 	/**
 	 * Retrieve the previous question in the attempt relative to a given question ID.
 	 *
-	 * @since [version]
+	 * @since 7.8.0
 	 *
 	 * @param int $question_id WP Post ID of the current LLMS_Question.
 	 * @return int|false
@@ -538,7 +538,7 @@ class LLMS_Quiz_Attempt extends LLMS_Abstract_Database_Store {
 	/**
 	 * Retrieve the question in the attempt.
 	 *
-	 * @since [version]
+	 * @since 7.8.0
 	 *
 	 * @param int    $question_id WP Post ID of the required LLMS_Question.
 	 * @param string $return      Optional. Return type 'id|array'. Default 'id'.
@@ -611,7 +611,7 @@ class LLMS_Quiz_Attempt extends LLMS_Abstract_Database_Store {
 	/**
 	 * Retrieve an an answer to a specific question.
 	 *
-	 * @since [version]
+	 * @since 7.8.0
 	 *
 	 * @param int     $question_id    Question ID.
 	 * @param boolean $cache          Optional. If `true`, save data to to the object for future gets. Default `true`.
@@ -694,7 +694,7 @@ class LLMS_Quiz_Attempt extends LLMS_Abstract_Database_Store {
 	 *
 	 * @since 3.9.0
 	 * @since 3.16.0 Unknown.
-	 * @since [version] Set the property `can_be_resumed` on init.
+	 * @since 7.8.0 Set the property `can_be_resumed` on init.
 	 *
 	 * @throws Exception When the user is not logged in.
 	 *
@@ -810,7 +810,7 @@ class LLMS_Quiz_Attempt extends LLMS_Abstract_Database_Store {
 	/**
 	 * Determine if the attempt is the last attempt of its quiz.
 	 *
-	 * @since [version]
+	 * @since 7.8.0
 	 *
 	 * @return bool
 	 */
@@ -840,7 +840,7 @@ class LLMS_Quiz_Attempt extends LLMS_Abstract_Database_Store {
 	/**
 	 * Determine if the attempt can be resumed.
 	 *
-	 * @since [version]
+	 * @since 7.8.0
 	 *
 	 * @return boolean
 	 */
@@ -854,7 +854,7 @@ class LLMS_Quiz_Attempt extends LLMS_Abstract_Database_Store {
 	 *
 	 * The default resume quiz attempt time limit for a student is 1 day.
 	 *
-	 * @since [version]
+	 * @since 7.8.0
 	 *
 	 * @return bool
 	 */
@@ -874,7 +874,7 @@ class LLMS_Quiz_Attempt extends LLMS_Abstract_Database_Store {
 		/**
 		 * Filters the X time for resuming quiz.
 		 *
-		 * @since [version]
+		 * @since 7.8.0
 		 *
 		 * @param int $resume_time_period The time period in hours.
 		 */

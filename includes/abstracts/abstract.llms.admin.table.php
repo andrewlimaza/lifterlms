@@ -5,7 +5,7 @@
  * @package LifterLMS/Abstracts/Classes
  *
  * @since 3.2.0
- * @version [version]
+ * @version 7.8.0
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -576,7 +576,7 @@ abstract class LLMS_Admin_Table extends LLMS_Abstract_Exportable_Admin_Table {
 	 * @since 3.2.0
 	 * @since 3.17.8 Unknown.
 	 * @since 3.37.7 Use correct argument order for implode to fix php 7.4 deprecation.
-	 * @since [version] Added button for clearing resumable attempts.
+	 * @since 7.8.0 Added button for clearing resumable attempts.
 	 *
 	 * @return string
 	 * @deprecated 7.7.0 Use output_table_html() instead.
@@ -839,7 +839,7 @@ abstract class LLMS_Admin_Table extends LLMS_Abstract_Exportable_Admin_Table {
 	/**
 	 * Check if any quiz has resumable attempts.
 	 *
-	 * @since [version]
+	 * @since 7.8.0
 	 *
 	 * @return bool
 	 */

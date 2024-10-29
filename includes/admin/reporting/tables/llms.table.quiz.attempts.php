@@ -5,7 +5,7 @@
  * @package LifterLMS/Admin/Reporting/Tables/Classes
  *
  * @since 3.16.0
- * @version [version]
+ * @version 7.8.0
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -96,7 +96,7 @@ class LLMS_Table_Quiz_Attempts extends LLMS_Admin_Table {
 	 *
 	 * @since 3.16.0
 	 * @since 3.26.3 Unknown.
-	 * @since [version] Added information about whether the attempt can be resumed.
+	 * @since 7.8.0 Added information about whether the attempt can be resumed.
 	 *
 	 * @param string            $key     The column id / key.
 	 * @param LLMS_Quiz_Attempt $attempt LLMS_Quiz_Attempt obj.

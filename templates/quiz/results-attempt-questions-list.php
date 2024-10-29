@@ -7,7 +7,7 @@
  * @since 3.17.8 Unknown.
  * @since 5.3.0 Display removed questions too.
  * @since 7.3.0 Script moved into the main llms.js.
- * @since [version] Hide answers if resumable attempt is incomplete.
+ * @since 7.8.0 Hide answers if resumable attempt is incomplete.
  * @version 7.3.0
  *
  * @since 3.16.0

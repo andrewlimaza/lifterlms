@@ -5,7 +5,7 @@
  * @package LifterLMS/Models/Classes
  *
  * @since 1.0.0
- * @version [version]
+ * @version 7.8.0
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -348,7 +348,7 @@ class LLMS_Question extends LLMS_Post_Model {
 	 * Get the question text (title).
 	 *
 	 * @since 3.16.0
-	 * @since [version] Added $attempt param.
+	 * @since 7.8.0 Added $attempt param.
 	 *
 	 * @param string            $format  Optional. Format of the question text. Accepts 'html' or 'plain'.
 	 * @param LLMS_Quiz_Attempt $attempt Optional. Quiz Attempt object.
@@ -360,7 +360,7 @@ class LLMS_Question extends LLMS_Post_Model {
 		 *
 		 * The dynamic portion of this filter, `{$type}`, refers to the question type.
 		 *
-		 * @since [version]
+		 * @since 7.8.0
 		 *
 		 * @param string            $title    Question title.
 		 * @param string            $format   Format of the question text. Accepts 'html' or 'plain'.

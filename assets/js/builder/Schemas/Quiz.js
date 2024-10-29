@@ -4,8 +4,8 @@
  * @since 3.17.6
  * @since 7.4.0 Added upsell for Question Bank and condition in `random_questions` schema.
  * @since 7.6.2 Added `disable_retake` schema.
- * @since [version] Added `can_be_resumed` option.
- * @version [version]
+ * @since 7.8.0 Added `can_be_resumed` option.
+ * @version 7.8.0
 
  */
 define( [], function() {

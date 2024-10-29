@@ -5,7 +5,7 @@
  * @package LifterLMS/Classes
  *
  * @since 1.0.0
- * @version [version]
+ * @version 7.8.0
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -400,7 +400,7 @@ class LLMS_Install {
 	 * @since 3.36.0 Added `wp_lifterlms_events` table.
 	 * @since 4.0.0 Added `wp_lifterlms_sessions` table.
 	 * @since 4.5.0 Added `wp_lifterlms_events_open_sessions` table.
-	 * @since [version] Added column `can_be_resumed` and `current_question_id` to the quiz attempt table.
+	 * @since 7.8.0 Added column `can_be_resumed` and `current_question_id` to the quiz attempt table.
 	 *
 	 * @return string
 	 */

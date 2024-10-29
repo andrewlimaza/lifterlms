@@ -5,7 +5,7 @@
  * @package LifterLMS/Abstracts/Classes
  *
  * @since 3.24.0
- * @version [version]
+ * @version 7.8.0
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -105,7 +105,7 @@ abstract class LLMS_Abstract_Notification_View_Quiz_Completion extends LLMS_Abst
 	 *
 	 * @since 3.24.0
 	 * @since 4.0.0 Remove usage of deprecated class `LLMS_Quiz_Legacy`.
-	 * @since [version] Don't try to round nulls.
+	 * @since 7.8.0 Don't try to round nulls.
 	 *
 	 * @param string $code The merge code to get merged data for.
 	 * @return string

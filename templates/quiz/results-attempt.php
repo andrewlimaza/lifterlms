@@ -5,7 +5,7 @@
  * @param LLMS_Quiz_Attempt $attempt LLMS_Quiz_Attempt instance.
  *
  * @version  3.27.0
- * @since [version] Hide answers if resumable attempt is incomplete.
+ * @since 7.8.0 Hide answers if resumable attempt is incomplete.
  *
  * @since    3.16.0
  */

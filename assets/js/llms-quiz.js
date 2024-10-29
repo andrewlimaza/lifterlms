@@ -7,7 +7,7 @@
  * @type {Object}
  *
  * @since 1.0.0
- * @version [version]
+ * @version 7.8.0
  */( function( $ ) {
 
 	var quiz = {
@@ -94,7 +94,7 @@
 		 *
 		 * @since 1.0.0
 		 * @since 3.16.6 Unknown.
-		 * @since [version] Add quiz resume and hide leave warning if quiz is resumable.
+		 * @since 7.8.0 Add quiz resume and hide leave warning if quiz is resumable.
 		 *
 		 * @return {Void}
 		 */
@@ -398,7 +398,7 @@
 		 *
 		 * @since 1.0.0
 		 * @since 3.16.6 Unknown.
-		 * @since [version] Retrieve question HTML from the server when not cached.
+		 * @since 7.8.0 Retrieve question HTML from the server when not cached.
 		 *
 		 * @return {Void}
 		 */
@@ -485,7 +485,7 @@
 		 *
          * @since 1.0.0
          * @since 3.24.3 Unknown.
-		 * @since [version] Abstracted the function in `init_quiz`.
+		 * @since 7.8.0 Abstracted the function in `init_quiz`.
 		 *
 		 * @return {Void}
 		 */
@@ -497,7 +497,7 @@
 		/**
 		 * Resume a Quiz.
 		 *
-		 * @since [version]
+		 * @since 7.8.0
 		 *
 		 * @return {Void}
 		 */
@@ -509,7 +509,7 @@
 		/**
 		 * Initiate 'Start' or 'Resume' action on a Quiz via AJAX call.
 		 *
-		 * @since [version]
+		 * @since 7.8.0
 		 *
 		 * @return {Void}
 		 */
@@ -843,7 +843,7 @@
 		 * Update the progress bar and toggle button availability based on question the question being shown.
 		 *
 		 * @since 3.16.0
-		 * @since [version] Show counter and set the total as when needed.
+		 * @since 7.8.0 Show counter and set the total as when needed.
 		 *
 		 * @param {Int} qid Question ID.
 		 * @return {Void}
