@@ -1,6 +1,14 @@
 LifterLMS Changelog
 ===================
 
+v7.8.1 - 2024-10-29
+-------------------
+
+##### Bug Fixes
+
++ Fixing migration to allow SKUs to be entered in access plans if one already exists.
+
+
 v7.8.0 - 2024-10-29
 -------------------
 

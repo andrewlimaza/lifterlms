@@ -1,4 +1,0 @@
-significance: patch
-type: fixed
-entry: Fixing migration to allow SKUs to be entered in access plans if one
-  already exists.
