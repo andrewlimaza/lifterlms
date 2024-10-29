@@ -38,7 +38,7 @@ function maybe_set_option_llms_access_plans_allow_skus() {
 	$found_plan_skus = $wpdb->get_results(
 		"SELECT *
 		 FROM {$wpdb->postmeta}
-		 WHERE meta_key = '_llms_plan_sku'
+		 WHERE meta_key = '_llms_sku'
 		 AND meta_value != ''"
 	);
 
