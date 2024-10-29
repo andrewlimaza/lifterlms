@@ -8,7 +8,7 @@
  * @version 7.8.0
  */
 
-namespace LLMS\Updates\Version_7_7_0;
+namespace LLMS\Updates\Version_7_8_0;
 
 defined( 'ABSPATH' ) || exit;
 
@@ -22,7 +22,7 @@ defined( 'ABSPATH' ) || exit;
  * @return string
  */
 function _get_db_version() {
-	return '7.7.0';
+	return '7.8.0';
 }
 
 /**
@@ -48,7 +48,6 @@ function maybe_set_option_llms_access_plans_allow_skus() {
 	}
 
 	return false;
-
 }
 
 /**
