@@ -1,6 +1,18 @@
 LifterLMS Changelog
 ===================
 
+v7.8.2 - 2024-10-31
+-------------------
+
+##### Updates and Enhancements
+
++ Additional styling of the new Access Plan UI.
+
+##### Bug Fixes
+
++ Renaming front-end javascript translation file not required, as some security scans appear to be deleting it incorrectly. [#2787](https://github.com/gocodebox/lifterlms/issues/2787)
+
+
 v7.8.1 - 2024-10-29
 -------------------
 
