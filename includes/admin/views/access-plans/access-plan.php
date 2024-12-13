@@ -554,7 +554,15 @@ if ( ! isset( $plan ) ) {
 			// Do we have any memberships to restrict this plan to?
 			$memberships_count = wp_count_posts( 'llms_membership' );
 		if ( $course && $memberships_count->publish > 0 ) :
-			?>
+			
+			/**
+			 * Filter to hide the access plan section for a course for custom conditions and integrations.
+			 * @param boolean          $show_access_plans_for_course Show access plans for a course.
+			 * @param LLMS_Access_Plan $plan  LLMS_Access_Plan.
+			 * @param integer          $id    Access Plan ID.
+			 */
+			if ( apply_filters( 'llms_show_access_plans_for_course', true, $plan, $id ) ) :
+		?>
 
 				<h4><?php esc_html_e( 'Membership Settings', 'lifterlms' ); ?></h4>
 
@@ -568,6 +576,7 @@ if ( ! isset( $plan ) ) {
 								<i class="fa fa-question-circle"></i>
 							</span>
 						</label>
+
 						<select data-controller-id="llms-availability" name="_llms_plans[<?php echo $order; ?>][availability]"<?php echo ( $plan ) ? '' : ' disabled="disabled"'; ?>>
 							<option value="open"<?php selected( 'open', $plan ? $availability : '' ); ?>><?php esc_html_e( 'Anyone', 'lifterlms' ); ?></option>
 							<option value="members"<?php selected( 'members', $plan ? $availability : '' ); ?>><?php esc_html_e( 'Members only', 'lifterlms' ); ?></option>
@@ -596,6 +605,7 @@ if ( ! isset( $plan ) ) {
 				</div>
 
 				<?php
+				endif;
 			endif;
 		?>
 
