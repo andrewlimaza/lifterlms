@@ -13,7 +13,7 @@ v7.8.6 - 2024-12-16
 
 ##### Security Fixes
 
-+ Adding additional checks before the deletion of a certificate.
++ Adding additional checks before the deletion of a certificate. Thanks Lucio Sá!
 
 ##### Updated Templates
 
