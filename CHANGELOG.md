@@ -1,6 +1,15 @@
 LifterLMS Changelog
 ===================
 
+v7.8.7 - 2024-12-17
+-------------------
+
+##### Bug Fixes
+
++ Fix translation error during the setup wizard. [#2835](https://github.com/gocodebox/lifterlms/issues/2835)
++ Fixes Pagespeed notice regarding deprecated Javascript event usage. [#2620](https://github.com/gocodebox/lifterlms/issues/2620)
+
+
 v7.8.6 - 2024-12-16
 -------------------
 
