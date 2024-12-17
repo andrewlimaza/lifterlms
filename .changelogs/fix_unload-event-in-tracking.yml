@@ -1,5 +1,0 @@
-significance: patch
-type: fixed
-links:
-  - "#2620"
-entry: Fixes Pagespeed notice regarding deprecated Javascript event usage.
